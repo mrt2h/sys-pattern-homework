@@ -2,7 +2,8 @@
 1. Создана ВМ на Яндекс облаке с образом диска jenkins на ubuntu. Она же будет использоваться для работы registry и golang. Проведена первоначальная настройка jenkins. http://158.160.129.4:8080/ ![8-02-vmyc-jenki](https://github.com/user-attachments/assets/6d416fe3-bd80-47db-aea5-2bca8cf02d79)
 2. Установлен golang из репозитория ubuntu: sudo apt install golang
 3. Установлен докер: sudo apt install docker.io Сделаны настройки по добавлению пользователя jenkins в группу docker и разрешение на использование http-репозитория.
-4. Из докер-хаба скачан nexus: sudo docker pull sonatype/nexus3, запущен с пробросом порта 8081-8082 и проведена начальная настройка. Запуск командой docker run -d -p 8081:8081 -p :8082:8082 --name nexus -e INSTALL4J_ADD_VM_PARAMS="-Xms512m -Xmx512m -XX:MaxDirectMemorySize=273m" sonatype/nexus3. Создан репозиторий для загрузки образа docker ![8-02-vmyc-jenki](https://github.com/user-attachments/assets/7f878a65-9219-465d-a310-da5ae41b37eb)
+4. Из докер-хаба скачан nexus: sudo docker pull sonatype/nexus3, запущен с пробросом порта 8081-8082 и проведена начальная настройка. Запуск командой docker run -d -p 8081:8081 -p :8082:8082 --name nexus -e INSTALL4J_ADD_VM_PARAMS="-Xms512m -Xmx512m -XX:MaxDirectMemorySize=273m" sonatype/nexus3. Создан репозиторий для загрузки образа docker ![4](https://github.com/user-attachments/assets/55887d10-af4e-46c3-9911-1a492c7702b9)
+
 
 5. Создана задача с приведенными параметрами и запущена сборка, завершившаяся успешно.
 ![5](https://github.com/user-attachments/assets/b6a3bab4-4206-4003-93c4-41fb7795033a)
