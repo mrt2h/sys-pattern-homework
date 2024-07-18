@@ -1,3 +1,4 @@
+Домашнее задание к занятию "Что такое DevOps. СI/СD" - Хасаншин Марат
 Решение 2
 1. Создана ВМ на Яндекс облаке с образом диска jenkins на ubuntu. Она же будет использоваться для работы registry и golang. Проведена первоначальная настройка jenkins. http://158.160.129.4:8080/ ![8-02-vmyc-jenki](https://github.com/user-attachments/assets/6d416fe3-bd80-47db-aea5-2bca8cf02d79)
 2. Установлен golang из репозитория ubuntu: sudo apt install golang
