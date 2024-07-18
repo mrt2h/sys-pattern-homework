@@ -13,7 +13,7 @@
 Решение 2
 1. Настройки приведены в вид пайплайна 
 ![1](https://github.com/user-attachments/assets/19e02822-0d20-4844-9d98-c55181ced905)
-2. Запущена сборка загрузка в nexus
+2. Запущена сборка
 ![2](https://github.com/user-attachments/assets/0daa813a-d2dd-4488-9082-55d7ff38d659)
 
 
