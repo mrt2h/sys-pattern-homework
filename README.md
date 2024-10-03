@@ -51,7 +51,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 6. Переподключитесь к базе данных от имени sys_temp.
 
-![Alt text](6.pngg)
+![Alt text](6.png)
 
 Либо "выйти и войти нормально":
 
